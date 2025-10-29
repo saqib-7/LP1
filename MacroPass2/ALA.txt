@@ -1,0 +1,9 @@
+Macro: INCR
+&X -> #1
+&Y -> #2
+&REG -> #3
+
+Macro: DECR
+&A -> #1
+&B -> #2
+&REG -> #3
