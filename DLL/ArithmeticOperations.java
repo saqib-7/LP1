@@ -22,3 +22,10 @@ public class ArithmeticOperations {
         System.out.println("Division: " + ops.divide(a, b));
     }
 }
+
+/*
+javac ArithmeticOperations.java
+javac -h . ArithmeticOperations.java
+gcc -I /usr/lib/jvm/java-17-openjdk-amd64/include -I/usr/lib/jvm/java-17-openjdk-amd64/include/linux -fPIC -shared -o libArithmeticOperations.so ArithmeticOperations.c
+java -Djava.library.path=. ArithmeticOperations
+ */
